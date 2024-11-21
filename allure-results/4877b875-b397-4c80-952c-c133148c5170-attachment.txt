@@ -1,0 +1,3 @@
+Selected Random User ID for Positive Test: 7536492
+Unauthorised Test Response: { status: 401, json: { message: 'Authentication failed' } }
+Response code is 401
