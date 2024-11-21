@@ -44,7 +44,7 @@ You can check if you have Node.js and NPM installed by running:
 Clone the project repository using Git:
 
 ```bash
-git clone <repository-url> 
+git clone <https://github.com/numanhan/quattAPIAutomation/> 
 ```
 
 2. **Install Dependencies:**
