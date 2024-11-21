@@ -21,13 +21,13 @@ package.json
 ## Project Setup
 ### Prerequisites
 Project Setup and Test Instructions
-### Contains API service functions
-### Contains JSON schema files for validation
-### Contains test data generators 
-### Contains test scripts
-### Contains utility functions (e.g., schema validator)
-### Allure test report output
-### Project dependencies and scripts
+1. Contains API service functions
+2. Contains JSON schema files for validation
+3. Contains test data generators
+4. Contains test scripts
+5. Contains utility functions (e.g., schema validator)
+6. Allure test report output
+7. Project dependencies and scripts
 
 Ensure the following tools are installed on your machine:
 
