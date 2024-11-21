@@ -1,0 +1,6 @@
+Fetching users...
+Selected Random User ID for Positive Test: 7537694
+Selected Random User ID for Unauthorised Test: 7537678
+Running Unauthorised Test with User ID: 7537678
+Unauthorised Test Response: { status: 404, json: { message: 'Resource not found' } }
+Response code is 404

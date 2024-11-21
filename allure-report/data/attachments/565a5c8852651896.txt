@@ -1,0 +1,2 @@
+Running Positive Test with User ID: undefined
+Positive Test Response: { status: 404, json: { message: 'Resource not found' } }

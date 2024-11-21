@@ -1,0 +1,30 @@
+Unauthenticated Test User ID: 7537333
+Generated User Data for Create: {
+  id: 5752619,
+  name: 'Conrad Romaguera',
+  email: 'Jamir_OReilly@yahoo.com',
+  gender: 'male',
+  status: 'active'
+}
+Create User Response: {
+  status: 201,
+  json: {
+    id: 7537743,
+    name: 'Conrad Romaguera',
+    email: 'Jamir_OReilly@yahoo.com',
+    gender: 'male',
+    status: 'active'
+  }
+}
+Created User ID for Positive Test: 7537743
+Update User Response: {
+  status: 200,
+  json: {
+    email: 'Jayde_Prohaska76@yahoo.com',
+    name: 'Updated User Name',
+    gender: 'female',
+    status: 'active',
+    id: 7537743
+  }
+}
+Schema validation completed successfully.

@@ -1,0 +1,6 @@
+Fetching users once...
+Selected Random User ID for Positive Test: 7537334
+Selected Random User ID for Unauthorised Test: 7537344
+Running Unauthorised Test with User ID: 7537344
+Unauthorised Test Response: { status: 401, json: { message: 'Authentication failed' } }
+Response code is 401

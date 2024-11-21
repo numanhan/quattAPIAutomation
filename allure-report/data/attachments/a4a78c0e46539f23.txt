@@ -1,0 +1,13 @@
+Setting up users for update tests...
+Created User ID for Positive Test: 7537668
+Positive Test Response: {
+  status: 200,
+  json: {
+    email: 'Graciela_Von@gmail.com',
+    name: 'Updated User Name',
+    gender: 'female',
+    status: 'active',
+    id: 7537668
+  }
+}
+Schema validation completed successfully.

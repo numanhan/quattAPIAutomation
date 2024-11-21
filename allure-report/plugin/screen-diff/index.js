@@ -1,7 +1,5 @@
 (function () {
-    var settings = allure.getPluginSettings('screen-diff', {
-        diffType: 'diff',
-    });
+    var settings = allure.getPluginSettings('screen-diff', { diffType: 'diff' });
 
     function renderImage(src) {
         return (
@@ -15,11 +13,9 @@
 
     function findImage(data, name) {
         if (data.testStage && data.testStage.attachments) {
-            var matchedImage = data.testStage.attachments.filter(
-                function (attachment) {
-                    return attachment.name === name;
-                }
-            )[0];
+            var matchedImage = data.testStage.attachments.filter(function (attachment) {
+                return attachment.name === name;
+            })[0];
             if (matchedImage) {
                 return 'data/attachments/' + matchedImage.source;
             }
@@ -77,7 +73,7 @@
                     diffImage: diffImage,
                     actualImage: actualImage,
                     expectedImage: expectedImage,
-                })
+                }),
             );
         },
     });
@@ -99,10 +95,7 @@
         onRender: function () {
             jQuery
                 .getJSON(this.options.sourceUrl)
-                .then(
-                    this.renderScreenDiffView.bind(this),
-                    this.renderErrorView.bind(this)
-                );
+                .then(this.renderScreenDiffView.bind(this), this.renderErrorView.bind(this));
         },
         renderErrorView: function (error) {
             console.log(error);
@@ -110,7 +103,7 @@
                 'subView',
                 new ErrorView({
                     error: error.statusText,
-                })
+                }),
             );
         },
         renderScreenDiffView: function (data) {
@@ -120,7 +113,7 @@
                     diffImage: data.diff,
                     actualImage: data.actual,
                     expectedImage: data.expected,
-                })
+                }),
             );
         },
     });
@@ -129,8 +122,7 @@
         className: 'pane__section',
         events: function () {
             return {
-                ['click [name="screen-diff-type-' + this.cid + '"]']:
-                    'onDiffTypeChange',
+                ['click [name="screen-diff-type-' + this.cid + '"]']: 'onDiffTypeChange',
                 'mousemove .screen-diff__overlay': 'onOverlayMove',
             };
         },
@@ -169,7 +161,7 @@
                     data.diffType,
                     data.diffImage,
                     data.actualImage,
-                    data.expectedImage
+                    data.expectedImage,
                 ) +
                 '</div>'
             );
@@ -180,21 +172,17 @@
         },
         onRender: function () {
             const diffType = settings.get('diffType');
-            this.$(
-                '[name="' + this.radioName + '"][value="' + diffType + '"]'
-            ).prop('checked', true);
+            this.$('[name="' + this.radioName + '"][value="' + diffType + '"]').prop(
+                'checked',
+                true,
+            );
             if (diffType === 'overlay') {
-                this.$('.screen-diff__image-over img').on(
-                    'load',
-                    this.adjustImageSize.bind(this)
-                );
+                this.$('.screen-diff__image-over img').on('load', this.adjustImageSize.bind(this));
             }
         },
         onOverlayMove: function (event) {
             var pageX = event.pageX;
-            var containerScroll = this.$(
-                '.screen-diff__container'
-            ).scrollLeft();
+            var containerScroll = this.$('.screen-diff__container').scrollLeft();
             var elementX = event.currentTarget.getBoundingClientRect().left;
             var delta = pageX - elementX + containerScroll;
             this.$('.screen-diff__image-over').width(delta);

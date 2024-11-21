@@ -1,0 +1,18 @@
+{
+  id: 3773655,
+  name: 'Ms. Ignacio Renner',
+  email: 'Theron.Wuckert@hotmail.com',
+  gender: 'male',
+  status: 'active'
+}
+{
+  status: 201,
+  json: {
+    id: 7537614,
+    name: 'Ms. Ignacio Renner',
+    email: 'Theron.Wuckert@hotmail.com',
+    gender: 'male',
+    status: 'active'
+  }
+}
+Schema validation completed successfully.

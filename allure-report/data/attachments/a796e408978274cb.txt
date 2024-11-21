@@ -1,0 +1,18 @@
+{
+  id: 5906416,
+  name: 'Alton Feeney',
+  email: 'Glenna.Murazik@gmail.com',
+  gender: 'female',
+  status: 'active'
+}
+{
+  status: 201,
+  json: {
+    id: 7537863,
+    name: 'Alton Feeney',
+    email: 'Glenna.Murazik@gmail.com',
+    gender: 'female',
+    status: 'active'
+  }
+}
+Schema validation completed successfully.

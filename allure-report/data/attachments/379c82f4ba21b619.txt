@@ -1,0 +1,30 @@
+Unauthenticated Test User ID: 7537335
+Generated User Data for Create: {
+  id: 3470738,
+  name: 'Darin Wintheiser PhD',
+  email: 'Jace.Kuhic92@gmail.com',
+  gender: 'male',
+  status: 'active'
+}
+Create User Response: {
+  status: 201,
+  json: {
+    id: 7537744,
+    name: 'Darin Wintheiser PhD',
+    email: 'Jace.Kuhic92@gmail.com',
+    gender: 'male',
+    status: 'active'
+  }
+}
+Created User ID for Positive Test: 7537744
+Update User Response: {
+  status: 200,
+  json: {
+    email: 'Maxie2@gmail.com',
+    name: 'Updated User Name',
+    gender: 'female',
+    status: 'active',
+    id: 7537744
+  }
+}
+Schema validation completed successfully.

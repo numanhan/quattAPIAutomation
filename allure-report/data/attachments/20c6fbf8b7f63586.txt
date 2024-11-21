@@ -1,0 +1,77 @@
+{
+  status: 200,
+  json: [
+    {
+      id: 7537357,
+      name: 'The Hon. Goswamee Pandey',
+      email: 'goswamee_the_hon_pandey@jaskolski.example',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537356,
+      name: 'The Hon. Datta Agarwal',
+      email: 'the_agarwal_hon_datta@gerlach-walker.test',
+      gender: 'female',
+      status: 'inactive'
+    },
+    {
+      id: 7537355,
+      name: 'Kin Varrier',
+      email: 'kin_varrier@tillman.test',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537354,
+      name: 'Sachin Pothuvaal',
+      email: 'sachin_pothuvaal@rolfson.test',
+      gender: 'female',
+      status: 'inactive'
+    },
+    {
+      id: 7537353,
+      name: 'Balaaditya Pandey CPA',
+      email: 'cpa_balaaditya_pandey@cremin.test',
+      gender: 'male',
+      status: 'active'
+    },
+    {
+      id: 7537352,
+      name: 'Anjushri Gandhi',
+      email: 'gandhi_anjushri@ankunding.test',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537351,
+      name: 'Diksha Kaul',
+      email: 'kaul_diksha@swift.test',
+      gender: 'female',
+      status: 'inactive'
+    },
+    {
+      id: 7537350,
+      name: 'Devi Patel',
+      email: 'devi_patel@cartwright.test',
+      gender: 'female',
+      status: 'inactive'
+    },
+    {
+      id: 7537348,
+      name: 'Dr. Gudakesha Gowda',
+      email: 'gudakesha_dr_gowda@klein.test',
+      gender: 'male',
+      status: 'inactive'
+    },
+    {
+      id: 7537347,
+      name: 'Rev. Shakuntala Nehru',
+      email: 'rev_shakuntala_nehru@reichel.test',
+      gender: 'female',
+      status: 'inactive'
+    }
+  ]
+}
+Response code is 200
+Schema validation completed successfully.

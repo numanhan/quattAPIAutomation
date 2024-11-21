@@ -1,0 +1,2 @@
+Selected Random User ID for Unauthorised Test: 7537639
+Unauthenticated Test Response: { status: 404, json: { message: 'Resource not found' } }

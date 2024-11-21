@@ -1,9 +1,0 @@
-{
-  id: 2615412,
-  name: 'Willie Pouros',
-  email: 'Tiana11@yahoo.com',
-  gender: 'female',
-  status: 'active'
-}
-{ status: 401, json: { message: 'Authentication failed' } }
-Schema validation completed successfully.

@@ -1,0 +1,3 @@
+Unauthenticated Test User ID: 7537324
+Negative Test Response: { status: 404, json: { message: 'Resource not found' } }
+Schema validation completed successfully.

@@ -1,0 +1,29 @@
+Generated User Data for Create: {
+  id: 8903237,
+  name: 'Ted Luettgen',
+  email: 'Guillermo62@hotmail.com',
+  gender: 'female',
+  status: 'active'
+}
+Create User Response: {
+  status: 201,
+  json: {
+    id: 7537719,
+    name: 'Ted Luettgen',
+    email: 'Guillermo62@hotmail.com',
+    gender: 'female',
+    status: 'active'
+  }
+}
+Created User ID for Positive Test: 7537719
+Update User Response: {
+  status: 200,
+  json: {
+    email: 'Thea80@yahoo.com',
+    name: 'Updated User Name',
+    gender: 'female',
+    status: 'active',
+    id: 7537719
+  }
+}
+Schema validation completed successfully.

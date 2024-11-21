@@ -1,0 +1,18 @@
+{
+  id: 8920889,
+  name: 'Carole Lesch',
+  email: 'Don72@yahoo.com',
+  gender: 'female',
+  status: 'active'
+}
+{
+  status: 201,
+  json: {
+    id: 7537865,
+    name: 'Carole Lesch',
+    email: 'Don72@yahoo.com',
+    gender: 'female',
+    status: 'active'
+  }
+}
+Schema validation completed successfully.

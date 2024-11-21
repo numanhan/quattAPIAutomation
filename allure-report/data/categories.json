@@ -1,5 +1,1 @@
-{
-    "uid": "4b4757e66a1912dae1a509f688f20b0f",
-    "name": "categories",
-    "children": []
-}
+{"uid":"4b4757e66a1912dae1a509f688f20b0f","name":"categories","children":[{"name":"Product defects","children":[{"name":"AssertionError: expected 200 to equal 404","children":[{"name":"Validate Unauthenticated User can't get user by ID","uid":"2f5a4512ee6ba030","parentUid":"fce8c67992fbcadb38768ea572318fce","status":"failed","time":{"start":1732219410933,"stop":1732219413999,"duration":3066},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"fce8c67992fbcadb38768ea572318fce"}],"uid":"8fb3a91ba5aaf9de24cc8a92edc82b5d"}]}

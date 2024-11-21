@@ -1,0 +1,4 @@
+Setting up users for update tests...
+Created User ID for Positive Test: 7537694
+Negative Test Response: { status: 404, json: { message: 'Resource not found' } }
+Schema validation completed successfully.

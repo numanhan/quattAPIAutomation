@@ -1,9 +1,0 @@
-{
-  id: 8374443,
-  name: 'Bill Nicolas',
-  email: 'Cielo.Rice@hotmail.com',
-  gender: 'male',
-  status: 'active'
-}
-{ status: 401, json: { message: 'Authentication failed' } }
-Schema validation completed successfully.

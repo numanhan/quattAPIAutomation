@@ -1,0 +1,6 @@
+Fetching users...
+Selected Random User ID for Positive Test: 7537746
+Selected Random User ID for Unauthorised Test: 7537740
+Running Positive Test with User ID: 7537746
+Positive Test Response: { status: 204, json: null }
+Response code is 204

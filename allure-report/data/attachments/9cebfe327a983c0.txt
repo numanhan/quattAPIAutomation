@@ -1,0 +1,9 @@
+{
+  id: 2524446,
+  name: 'Benjamin Dooley IV',
+  email: 'Kolby.Harris@yahoo.com',
+  gender: 'male',
+  status: 'active'
+}
+{ status: 401, json: { message: 'Authentication failed' } }
+Schema validation completed successfully.

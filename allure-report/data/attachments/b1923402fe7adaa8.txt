@@ -1,0 +1,77 @@
+Fetched Users for Unauth Test: {
+  status: 200,
+  json: [
+    {
+      id: 7537712,
+      name: 'Updated User Name',
+      email: 'Belle_Kirlin22@hotmail.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537698,
+      name: 'Eric Rohan',
+      email: 'Meredith86@hotmail.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537692,
+      name: 'Updated User Name',
+      email: 'Julia_Halvorson@yahoo.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537694,
+      name: 'Elsa Kovacek',
+      email: 'Ransom_OHara23@gmail.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537677,
+      name: 'Updated User Name',
+      email: 'Kamron.Lueilwitz@hotmail.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537678,
+      name: "Lindsay O'Kon",
+      email: 'Neoma25@yahoo.com',
+      gender: 'male',
+      status: 'active'
+    },
+    {
+      id: 7537673,
+      name: 'Updated User Name',
+      email: 'Rosella.Mitchell31@yahoo.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537674,
+      name: 'Oscar Roob',
+      email: 'Zoe_Boehm@gmail.com',
+      gender: 'male',
+      status: 'active'
+    },
+    {
+      id: 7537670,
+      name: 'Thomas Runte',
+      email: 'Shakira28@hotmail.com',
+      gender: 'male',
+      status: 'active'
+    },
+    {
+      id: 7537668,
+      name: 'Updated User Name',
+      email: 'Graciela_Von@gmail.com',
+      gender: 'female',
+      status: 'active'
+    }
+  ]
+}
+Unauthorised Test User ID: 7537673
+Unauthenticated Test Response: { status: 404, json: { message: 'Resource not found' } }

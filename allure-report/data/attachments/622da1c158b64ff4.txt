@@ -1,0 +1,30 @@
+Unauthenticated Test User ID: 7537319
+Generated User Data for Create: {
+  id: 3893030,
+  name: 'Mrs. Lindsay Gusikowski',
+  email: 'Amya_OConnell69@hotmail.com',
+  gender: 'female',
+  status: 'active'
+}
+Create User Response: {
+  status: 201,
+  json: {
+    id: 7537866,
+    name: 'Mrs. Lindsay Gusikowski',
+    email: 'Amya_OConnell69@hotmail.com',
+    gender: 'female',
+    status: 'active'
+  }
+}
+Created User ID for Positive Test: 7537866
+Update User Response: {
+  status: 200,
+  json: {
+    email: 'Mathias_Grady@gmail.com',
+    name: 'Updated User Name',
+    gender: 'female',
+    status: 'active',
+    id: 7537866
+  }
+}
+Schema validation completed successfully.

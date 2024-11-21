@@ -1,0 +1,3 @@
+Unauthenticated Test User ID: 7537319
+Unauthenticated Test Response: { status: 401, json: { message: 'Authentication failed' } }
+Schema validation completed successfully.

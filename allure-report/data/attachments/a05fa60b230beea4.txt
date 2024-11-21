@@ -1,5 +1,0 @@
-{
-  status: 422,
-  json: [ { field: 'email', message: "can't be blank" } ]
-}
-Schema validation completed successfully.

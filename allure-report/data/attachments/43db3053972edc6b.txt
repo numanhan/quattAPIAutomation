@@ -1,0 +1,77 @@
+{
+  status: 200,
+  json: [
+    {
+      id: 7537769,
+      name: 'Updated User Name',
+      email: 'Cristobal97@yahoo.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537768,
+      name: 'Vincent Rempel',
+      email: 'Hilario11@gmail.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537766,
+      name: 'Updated User Name',
+      email: 'Pearl12@yahoo.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537765,
+      name: 'Marie Stiedemann',
+      email: 'Trent51@yahoo.com',
+      gender: 'male',
+      status: 'active'
+    },
+    {
+      id: 7537761,
+      name: 'Dr. Emilio Walter',
+      email: 'Earlene_Considine70@gmail.com',
+      gender: 'male',
+      status: 'active'
+    },
+    {
+      id: 7537760,
+      name: 'Updated User Name',
+      email: 'Mara21@yahoo.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537759,
+      name: 'Jonathon Stokes',
+      email: 'Brandi.Larson91@gmail.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537754,
+      name: 'Dr. Desiree Powlowski',
+      email: 'Quentin.Walter9@yahoo.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537745,
+      name: 'Updated User Name',
+      email: 'Bobby78@hotmail.com',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537719,
+      name: 'Updated User Name',
+      email: 'Thea80@yahoo.com',
+      gender: 'female',
+      status: 'active'
+    }
+  ]
+}
+Response code is 200
+Schema validation completed successfully.

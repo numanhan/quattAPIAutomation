@@ -1,0 +1,87 @@
+{
+  status: 200,
+  json: [
+    {
+      id: 7537339,
+      name: 'Aruna Kaur V',
+      email: 'kaur_aruna_v@rippin.test',
+      gender: 'male',
+      status: 'inactive'
+    },
+    {
+      id: 7537335,
+      name: 'Deevakar Butt',
+      email: 'deevakar_butt@koch-herman.test',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537333,
+      name: 'Hamsini Naik DDS',
+      email: 'hamsini_naik_dds@bartell-bauch.example',
+      gender: 'female',
+      status: 'inactive'
+    },
+    {
+      id: 7537329,
+      name: 'Prathamesh Tagore',
+      email: 'tagore_prathamesh@mann.test',
+      gender: 'female',
+      status: 'inactive'
+    },
+    {
+      id: 7537324,
+      name: 'Sen. Bhaasvan Menon',
+      email: 'sen_bhaasvan_menon@block-borer.example',
+      gender: 'male',
+      status: 'active'
+    },
+    {
+      id: 7537323,
+      name: 'Harita Desai',
+      email: 'harita_desai@rowe.example',
+      gender: 'female',
+      status: 'inactive'
+    },
+    {
+      id: 7537322,
+      name: 'Puneet Gowda Esq.',
+      email: 'gowda_puneet_esq@vandervort-morar.test',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537321,
+      name: 'Pres. Bheeshma Gupta',
+      email: 'bheeshma_pres_gupta@williamson-schmitt.example',
+      gender: 'female',
+      status: 'active'
+    },
+    {
+      id: 7537320,
+      name: 'Enakshi Desai',
+      email: 'enakshi_desai@franecki.example',
+      gender: 'male',
+      status: 'inactive'
+    },
+    {
+      id: 7537319,
+      name: 'Shivakari Kaniyar',
+      email: 'kaniyar_shivakari@becker.test',
+      gender: 'male',
+      status: 'inactive'
+    }
+  ]
+}
+Selected User ID: 7537320
+{
+  status: 200,
+  json: {
+    id: 7537320,
+    name: 'Enakshi Desai',
+    email: 'enakshi_desai@franecki.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+}
+Schema validation completed successfully.
