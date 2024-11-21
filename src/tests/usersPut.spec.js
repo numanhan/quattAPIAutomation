@@ -12,10 +12,39 @@ const { generateUser } = require('../test-data/userData');
 const faker = require('faker');
 
 test.describe('API Endpoint: Update User', () => {
+    let createdUserId;
+    let unauthTestUserId;
+
+    // Function for getting users.
+    const fetchUsers = async (baseURL) => {
+        const response = await fetch(`${baseURL}/users`);
+        const data = await response.json();
+        return data;
+    };
+
+    test.beforeAll(async ({ baseURL }) => {
+        // Get users and pick random ID
+        const users = await fetchUsers(baseURL);
+        unauthTestUserId = users[Math.floor(Math.random() * users.length)].id;
+        console.log(`Unauthenticated Test User ID: ${unauthTestUserId}`);
+    });
+
     test('Update User - Positive Test', async ({ baseURL }) => {
         const newUserData = generateUser();
+        console.log('Generated User Data for Create:', newUserData);
+
+        // Generate a new user
         const createResponse = await createUser(baseURL, newUserData);
-        const userId = createResponse.json.id;
+        console.log('Create User Response:', createResponse); // Logging the response
+
+        // Check if there's any error 
+        if (createResponse.status !== 201) {
+            console.error('Error creating user:', createResponse.json);
+            throw new Error(`Failed to create user. Status: ${createResponse.status}`);
+        }
+
+        createdUserId = createResponse.json.id;
+        console.log(`Created User ID for Positive Test: ${createdUserId}`);
 
         const updatedData = {
             name: 'Updated User Name',
@@ -24,8 +53,8 @@ test.describe('API Endpoint: Update User', () => {
             status: 'active',
         };
 
-        const response = await updateUser(baseURL, userId, updatedData);
-        console.log(response);
+        const response = await updateUser(baseURL, createdUserId, updatedData);
+        console.log('Update User Response:', response);
 
         expect(response.status).to.equal(200);
 
@@ -44,7 +73,7 @@ test.describe('API Endpoint: Update User', () => {
     test('Update User - Negative Test (Invalid Data, non-existing ID)', async ({
         baseURL,
     }) => {
-        const userId = 752734;
+        const userId = 1;
 
         const invalidData = {
             name: 'Invalid Update',
@@ -53,7 +82,7 @@ test.describe('API Endpoint: Update User', () => {
         };
 
         const response = await updateUser(baseURL, userId, invalidData);
-        console.log(response);
+        console.log('Negative Test Response:', response);
 
         expect(response.status).to.equal(404);
 
@@ -72,8 +101,6 @@ test.describe('API Endpoint: Update User', () => {
     test('Update User - Negative Test (Unauthenticated)', async ({
         baseURL,
     }) => {
-        const userId = 7536393;
-
         const updatedData = {
             name: 'Unauthenticated Update',
             email: 'unauthenticated_email@example.com',
@@ -81,9 +108,11 @@ test.describe('API Endpoint: Update User', () => {
             status: 'inactive',
         };
 
-        const response = await updateUserUnAuth(baseURL, userId, updatedData);
-        console.log(response);
+        // Trying to update with valid data but unauth user
+        const response = await updateUserUnAuth(baseURL, unauthTestUserId, updatedData);
+        console.log('Unauthenticated Test Response:', response);
 
+        // Check `401` error status code
         expect(response.status).to.equal(401);
 
         const errorResponse = response.json;
