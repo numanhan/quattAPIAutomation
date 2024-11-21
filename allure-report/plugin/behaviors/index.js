@@ -3,259 +3,260 @@
 allure.api.addTranslation('en', {
     tab: {
         behaviors: {
-            name: 'Behaviors'
-        }
+            name: 'Behaviors',
+        },
     },
     widget: {
         behaviors: {
             name: 'Features by stories',
-            showAll: 'show all'
-        }
-    }
+            showAll: 'show all',
+        },
+    },
 });
 
 allure.api.addTranslation('ru', {
     tab: {
         behaviors: {
-            name: 'Функциональность'
-        }
+            name: 'Функциональность',
+        },
     },
     widget: {
         behaviors: {
             name: 'Функциональность',
-            showAll: 'показать все'
-        }
-    }
+            showAll: 'показать все',
+        },
+    },
 });
 
 allure.api.addTranslation('zh', {
     tab: {
         behaviors: {
-            name: '功能'
-        }
+            name: '功能',
+        },
     },
     widget: {
         behaviors: {
             name: '特性场景',
-            showAll: '显示所有'
-        }
-    }
+            showAll: '显示所有',
+        },
+    },
 });
 
 allure.api.addTranslation('de', {
     tab: {
         behaviors: {
-            name: 'Verhalten'
-        }
+            name: 'Verhalten',
+        },
     },
     widget: {
         behaviors: {
             name: 'Features nach Stories',
-            showAll: 'Zeige alle'
-        }
-    }
+            showAll: 'Zeige alle',
+        },
+    },
 });
 
 allure.api.addTranslation('nl', {
     tab: {
         behaviors: {
-            name: 'Functionaliteit'
-        }
+            name: 'Functionaliteit',
+        },
     },
     widget: {
         behaviors: {
             name: 'Features en story’s',
-            showAll: 'Toon alle'
-        }
-    }
+            showAll: 'Toon alle',
+        },
+    },
 });
 
 allure.api.addTranslation('he', {
     tab: {
         behaviors: {
-            name: 'התנהגויות'
-        }
+            name: 'התנהגויות',
+        },
     },
     widget: {
         behaviors: {
             name: 'תכונות לפי סיפורי משתמש',
-            showAll: 'הצג הכול'
-        }
-    }
+            showAll: 'הצג הכול',
+        },
+    },
 });
 
 allure.api.addTranslation('br', {
     tab: {
         behaviors: {
-            name: 'Comportamentos'
-        }
+            name: 'Comportamentos',
+        },
     },
     widget: {
         behaviors: {
             name: 'Funcionalidades por história',
-            showAll: 'Mostrar tudo'
-        }
-    }
+            showAll: 'Mostrar tudo',
+        },
+    },
 });
 
 allure.api.addTranslation('ja', {
     tab: {
         behaviors: {
-            name: '振る舞い'
-        }
+            name: '振る舞い',
+        },
     },
     widget: {
         behaviors: {
             name: 'ストーリー別の機能',
-            showAll: '全て表示'
-        }
-    }
+            showAll: '全て表示',
+        },
+    },
 });
 
 allure.api.addTranslation('es', {
     tab: {
         behaviors: {
-            name: 'Funcionalidades'
-        }
+            name: 'Funcionalidades',
+        },
     },
     widget: {
         behaviors: {
             name: 'Funcionalidades por Historias de Usuario',
-            showAll: 'mostrar todo'
-        }
-    }
+            showAll: 'mostrar todo',
+        },
+    },
 });
 
 allure.api.addTranslation('kr', {
     tab: {
         behaviors: {
-            name: '동작'
-        }
+            name: '동작',
+        },
     },
     widget: {
         behaviors: {
             name: '스토리별 기능',
-            showAll: '전체 보기'
-        }
-    }
+            showAll: '전체 보기',
+        },
+    },
 });
 
 allure.api.addTranslation('fr', {
     tab: {
         behaviors: {
-            name: 'Comportements'
-        }
+            name: 'Comportements',
+        },
     },
     widget: {
         behaviors: {
             name: 'Thèmes par histoires',
-            showAll: 'Montrer tout'
-        }
-    }
+            showAll: 'Montrer tout',
+        },
+    },
 });
 
 allure.api.addTranslation('pl', {
     tab: {
         behaviors: {
-            name: 'Zachowania'
-        }
+            name: 'Zachowania',
+        },
     },
     widget: {
         behaviors: {
             name: 'Funkcje według historii',
-            showAll: 'pokaż wszystko'
-        }
-    }
+            showAll: 'pokaż wszystko',
+        },
+    },
 });
 
 allure.api.addTranslation('am', {
     tab: {
         behaviors: {
-            name: 'Վարքագծեր'
-        }
+            name: 'Վարքագծեր',
+        },
     },
     widget: {
         behaviors: {
             name: 'Ֆիչրները ըստ պատմությունների',
-            showAll: 'ցույց տալ բոլորը'
-        }
-    }
+            showAll: 'ցույց տալ բոլորը',
+        },
+    },
 });
 
 allure.api.addTranslation('az', {
     tab: {
         behaviors: {
-            name: 'Davranışlar'
-        }
+            name: 'Davranışlar',
+        },
     },
     widget: {
         behaviors: {
             name: 'Hekayələr üzrə xüsusiyyətlər',
-            showAll: 'hamısını göstər'
-        }
-    }
+            showAll: 'hamısını göstər',
+        },
+    },
 });
 
 allure.api.addTranslation('sv', {
     tab: {
         behaviors: {
-            name: 'Beteenden'
-        }
+            name: 'Beteenden',
+        },
     },
     widget: {
         behaviors: {
             name: 'Funktioner efter user stories',
-            showAll: 'visa allt'
-        }
-    }
+            showAll: 'visa allt',
+        },
+    },
 });
 
 allure.api.addTranslation('isv', {
     tab: {
         behaviors: {
             name: 'Funkcionalnost',
-        }
+        },
     },
     widget: {
         behaviors: {
             name: 'Funkcionalnost',
             showAll: 'pokaži vsěčto',
-        }
-    }
+        },
+    },
 });
 
 allure.api.addTranslation('ka', {
     tab: {
         behaviors: {
             name: 'ფუნქციონალი',
-        }
+        },
     },
     widget: {
         behaviors: {
             name: 'ფუნქციონალი',
             showAll: 'ყველას ჩვენება',
-        }
-    }
+        },
+    },
 });
 
 allure.api.addTranslation('it', {
     tab: {
         behaviors: {
-            name: 'Comportamenti'
-        }
+            name: 'Comportamenti',
+        },
     },
     widget: {
         behaviors: {
             name: 'Funzionalità per storie',
-            showAll: 'Mostra tutto'
-        }
-    }
+            showAll: 'Mostra tutto',
+        },
+    },
 });
 
 allure.api.addTab('behaviors', {
-    title: 'tab.behaviors.name', icon: 'fa fa-list',
+    title: 'tab.behaviors.name',
+    icon: 'fa fa-list',
     route: 'behaviors(/)(:testGroup)(/)(:testResult)(/)(:testResultTab)(/)',
-    onEnter: (function (testGroup, testResult, testResultTab) {
+    onEnter: function (testGroup, testResult, testResultTab) {
         return new allure.components.TreeLayout({
             testGroup: testGroup,
             testResult: testResult,
@@ -263,14 +264,18 @@ allure.api.addTab('behaviors', {
             tabName: 'tab.behaviors.name',
             baseUrl: 'behaviors',
             url: 'data/behaviors.json',
-            csvUrl: 'data/behaviors.csv'
+            csvUrl: 'data/behaviors.csv',
         });
-    })
+    },
 });
 
-allure.api.addWidget('widgets', 'behaviors', allure.components.WidgetStatusView.extend({
-    rowTag: 'a',
-    title: 'widget.behaviors.name',
-    baseUrl: 'behaviors',
-    showLinks: true
-}));
+allure.api.addWidget(
+    'widgets',
+    'behaviors',
+    allure.components.WidgetStatusView.extend({
+        rowTag: 'a',
+        title: 'widget.behaviors.name',
+        baseUrl: 'behaviors',
+        showLinks: true,
+    })
+);

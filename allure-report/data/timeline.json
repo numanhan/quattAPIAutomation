@@ -1,1 +1,1196 @@
-{"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc","name":"timeline","children":[{"name":"Numanhans-MacBook-Pro-2.local","children":[{"name":"pid-54446-worker-4","children":[{"name":"Validate Unauthorised User can get users but different data","uid":"f70afc5ea1c2eccc","parentUid":"069bee779c7df240b056d3e1a617e6bd","status":"passed","time":{"start":1732150382224,"stop":1732150382953,"duration":729},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate User can get a user by ID successfully","uid":"b13969d12ae502df","parentUid":"069bee779c7df240b056d3e1a617e6bd","status":"passed","time":{"start":1732150382962,"stop":1732150383633,"duration":671},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate Unauthenticated User can't get user by ID","uid":"c3b05392fd4d8501","parentUid":"069bee779c7df240b056d3e1a617e6bd","status":"passed","time":{"start":1732150383636,"stop":1732150384284,"duration":648},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Negative Test (Invalid Data)","uid":"1472c307e22459c1","parentUid":"069bee779c7df240b056d3e1a617e6bd","status":"passed","time":{"start":1732150384470,"stop":1732150385188,"duration":718},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Negative Test (Unauthenticated)","uid":"3372a287fdc283b8","parentUid":"069bee779c7df240b056d3e1a617e6bd","status":"passed","time":{"start":1732150385196,"stop":1732150385938,"duration":742},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"069bee779c7df240b056d3e1a617e6bd"},{"name":"pid-54446-worker-3","children":[{"name":"Create User - Negative Test (Unauthorized User)","uid":"e037a1a379e84e31","parentUid":"33c5b5af8cd12ca776baa62214ac9163","status":"passed","time":{"start":1732150384330,"stop":1732150385240,"duration":910},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate User gets 404 for non-existent user ID","uid":"d9561dfb3b348bf0","parentUid":"33c5b5af8cd12ca776baa62214ac9163","status":"passed","time":{"start":1732150383483,"stop":1732150384155,"duration":672},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate Authorised User can get all users","uid":"aa6ae51fa3237fa9","parentUid":"33c5b5af8cd12ca776baa62214ac9163","status":"passed","time":{"start":1732150382225,"stop":1732150383475,"duration":1250},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"33c5b5af8cd12ca776baa62214ac9163"},{"name":"pid-54550-worker-3","children":[{"name":"Validate Unauthenticated User can't get user by ID","uid":"5e879978be3721f9","parentUid":"58688ec9fc07264dfcf8c23fe0c991cc","status":"passed","time":{"start":1732150458162,"stop":1732150458433,"duration":271},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate Authorised User can get all users","uid":"f615e34001da39a9","parentUid":"58688ec9fc07264dfcf8c23fe0c991cc","status":"passed","time":{"start":1732150457291,"stop":1732150458153,"duration":862},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Negative Test (Unauthorized User)","uid":"48dbe87ed4bfff3d","parentUid":"58688ec9fc07264dfcf8c23fe0c991cc","status":"passed","time":{"start":1732150458609,"stop":1732150459174,"duration":565},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"58688ec9fc07264dfcf8c23fe0c991cc"},{"name":"pid-54075-worker-1","children":[{"name":"Delete User - Negative Test (Invalid User)","uid":"8424eeb7731f9d9","parentUid":"7edb74e57535aeb92be6edd82031e8eb","status":"passed","time":{"start":1732150145962,"stop":1732150147560,"duration":1598},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Negative Test (Unauthenticated)","uid":"4c51a5611af6dd65","parentUid":"7edb74e57535aeb92be6edd82031e8eb","status":"passed","time":{"start":1732150149314,"stop":1732150149999,"duration":685},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"7edb74e57535aeb92be6edd82031e8eb"},{"name":"pid-54075-worker-0","children":[{"name":"Delete User - Positive Test","uid":"4bc5227482678a22","parentUid":"98ff8036232a70cba114d64c4a334913","status":"passed","time":{"start":1732150145962,"stop":1732150146416,"duration":454},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate Unauthenticated User can't get user by ID","uid":"c5141d499fdcd2c1","parentUid":"98ff8036232a70cba114d64c4a334913","status":"passed","time":{"start":1732150148223,"stop":1732150148630,"duration":407},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Positive Test","uid":"7dc20187ec30ef90","parentUid":"98ff8036232a70cba114d64c4a334913","status":"passed","time":{"start":1732150148807,"stop":1732150150807,"duration":2000},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"98ff8036232a70cba114d64c4a334913"},{"name":"pid-54550-worker-2","children":[{"name":"Delete User - Unauthorised Test","uid":"bb4b1ec17dede9f6","parentUid":"3960ad64ba64bad98be7a1f891fd2a29","status":"passed","time":{"start":1732150457272,"stop":1732150457839,"duration":567},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Negative Test (Unauthenticated)","uid":"29631d8898092fd2","parentUid":"3960ad64ba64bad98be7a1f891fd2a29","status":"passed","time":{"start":1732150459108,"stop":1732150459684,"duration":576},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Positive Test (Authorized User)","uid":"a4104985523ae615","parentUid":"3960ad64ba64bad98be7a1f891fd2a29","status":"passed","time":{"start":1732150458396,"stop":1732150459104,"duration":708},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"3960ad64ba64bad98be7a1f891fd2a29"},{"name":"pid-54446-worker-0","children":[{"name":"Delete User - Positive Test","uid":"6446dd826872caa7","parentUid":"a6d6e05ab93bb3690a3bfa4a7fcb3d79","status":"passed","time":{"start":1732150382209,"stop":1732150382863,"duration":654},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Positive Test","uid":"12e923207a66d02","parentUid":"a6d6e05ab93bb3690a3bfa4a7fcb3d79","status":"passed","time":{"start":1732150384517,"stop":1732150386019,"duration":1502},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"a6d6e05ab93bb3690a3bfa4a7fcb3d79"},{"name":"pid-53573-worker-0","children":[{"name":"Validate Unauthenticated User can't get user by ID","uid":"516d3a20e65e4c6c","parentUid":"916d81edb4dd2b605a79053a98c048b9","status":"passed","time":{"start":1732149544494,"stop":1732149545076,"duration":582},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Delete User - Positive Test","uid":"b05eda7fb0b61eeb","parentUid":"916d81edb4dd2b605a79053a98c048b9","status":"passed","time":{"start":1732149543725,"stop":1732149544074,"duration":349},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Negative Test (Invalid Data, non-existing ID)","uid":"564995b80cfa9856","parentUid":"916d81edb4dd2b605a79053a98c048b9","status":"passed","time":{"start":1732149545254,"stop":1732149546057,"duration":803},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"916d81edb4dd2b605a79053a98c048b9"},{"name":"pid-54446-worker-2","children":[{"name":"Update User - Negative Test (Invalid Data, non-existing ID)","uid":"17c63d6d30b83330","parentUid":"df371a33525cf7070d55999f880520a7","status":"passed","time":{"start":1732150384532,"stop":1732150385212,"duration":680},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Delete User - Unauthorised Test","uid":"ea564a1ddd77ebf4","parentUid":"df371a33525cf7070d55999f880520a7","status":"passed","time":{"start":1732150382209,"stop":1732150383095,"duration":886},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"df371a33525cf7070d55999f880520a7"},{"name":"pid-53573-worker-3","children":[{"name":"Update User - Negative Test (Unauthenticated)","uid":"8fa9330c4bc6bb80","parentUid":"eafd50a5304e595ab620d6cad42b36ba","status":"passed","time":{"start":1732149545680,"stop":1732149545987,"duration":307},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate User can get a user by ID successfully","uid":"2abd32cc088436fb","parentUid":"eafd50a5304e595ab620d6cad42b36ba","status":"passed","time":{"start":1732149544151,"stop":1732149544477,"duration":326},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate Authorised User can get all users","uid":"f9456a9d11db775a","parentUid":"eafd50a5304e595ab620d6cad42b36ba","status":"passed","time":{"start":1732149543745,"stop":1732149544141,"duration":396},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Positive Test (Authorized User)","uid":"72113d49b38b5060","parentUid":"eafd50a5304e595ab620d6cad42b36ba","status":"passed","time":{"start":1732149544647,"stop":1732149545676,"duration":1029},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"eafd50a5304e595ab620d6cad42b36ba"},{"name":"pid-54446-worker-1","children":[{"name":"Delete User - Negative Test (Invalid User)","uid":"89ef8fd016815fb1","parentUid":"60da5ab21b7f4cb678f95f74589990e8","status":"passed","time":{"start":1732150382210,"stop":1732150382811,"duration":601},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Positive Test (Authorized User)","uid":"94e75b95c1ed8a24","parentUid":"60da5ab21b7f4cb678f95f74589990e8","status":"passed","time":{"start":1732150384283,"stop":1732150385210,"duration":927},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"60da5ab21b7f4cb678f95f74589990e8"},{"name":"pid-54550-worker-4","children":[{"name":"Validate Unauthorised User can get users but different data","uid":"5b8b59905d16df8","parentUid":"2b67f06c2cd25518495683cd1eb954c6","status":"passed","time":{"start":1732150457291,"stop":1732150457660,"duration":369},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Negative Test (Invalid Data, non-existing ID)","uid":"71820ff77ea09d43","parentUid":"2b67f06c2cd25518495683cd1eb954c6","status":"passed","time":{"start":1732150458883,"stop":1732150459498,"duration":615},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate User gets 404 for non-existent user ID","uid":"b923bde9ef7064fa","parentUid":"2b67f06c2cd25518495683cd1eb954c6","status":"passed","time":{"start":1732150458137,"stop":1732150458711,"duration":574},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate User can get a user by ID successfully","uid":"8152bb6bfe4cd786","parentUid":"2b67f06c2cd25518495683cd1eb954c6","status":"passed","time":{"start":1732150457670,"stop":1732150458133,"duration":463},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"2b67f06c2cd25518495683cd1eb954c6"},{"name":"pid-53573-worker-2","children":[{"name":"Delete User - Unauthorised Test","uid":"d386258a7fe09c70","parentUid":"c83afe8ec1912907f7d3ba9dc3e18bf3","status":"passed","time":{"start":1732149543724,"stop":1732149544290,"duration":566},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Negative Test (Invalid Data)","uid":"d462119e6a5287cc","parentUid":"c83afe8ec1912907f7d3ba9dc3e18bf3","status":"passed","time":{"start":1732149545118,"stop":1732149545678,"duration":560},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"c83afe8ec1912907f7d3ba9dc3e18bf3"},{"name":"pid-54075-worker-3","children":[{"name":"Validate User gets 404 for non-existent user ID","uid":"7e6ebcf9c235b14d","parentUid":"1d67486e80348a1dbee7552e47d48638","status":"passed","time":{"start":1732150147718,"stop":1732150148505,"duration":787},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Negative Test (Unauthorized User)","uid":"17ba2c3f4607522b","parentUid":"1d67486e80348a1dbee7552e47d48638","status":"passed","time":{"start":1732150148685,"stop":1732150149242,"duration":557},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate Authorised User can get all users","uid":"c48b092acb23dd67","parentUid":"1d67486e80348a1dbee7552e47d48638","status":"passed","time":{"start":1732150145978,"stop":1732150147712,"duration":1734},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"1d67486e80348a1dbee7552e47d48638"},{"name":"pid-54075-worker-4","children":[{"name":"Validate Unauthorised User can get users but different data","uid":"1f485b25866f1fa5","parentUid":"1a147a78bbc57622138345df604bc9f5","status":"passed","time":{"start":1732150145979,"stop":1732150147396,"duration":1417},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate User can get a user by ID successfully","uid":"55d8953a409a330a","parentUid":"1a147a78bbc57622138345df604bc9f5","status":"passed","time":{"start":1732150147406,"stop":1732150148586,"duration":1180},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Negative Test (Invalid Data)","uid":"fdeee29efed7fff7","parentUid":"1a147a78bbc57622138345df604bc9f5","status":"passed","time":{"start":1732150148766,"stop":1732150149383,"duration":617},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"1a147a78bbc57622138345df604bc9f5"},{"name":"pid-54550-worker-0","children":[{"name":"Delete User - Positive Test","uid":"c4e029dd6ea51923","parentUid":"d2d1d7997091beb3accb93bf9c8bcdee","status":"passed","time":{"start":1732150457274,"stop":1732150457682,"duration":408},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Negative Test (Invalid Data)","uid":"2b8d5f5861c344ee","parentUid":"d2d1d7997091beb3accb93bf9c8bcdee","status":"passed","time":{"start":1732150458641,"stop":1732150459281,"duration":640},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"d2d1d7997091beb3accb93bf9c8bcdee"},{"name":"pid-53573-worker-4","children":[{"name":"Validate User gets 404 for non-existent user ID","uid":"c608e29170042d9d","parentUid":"34c2e2c5a88e06b7bc339110c2868be9","status":"passed","time":{"start":1732149544165,"stop":1732149544909,"duration":744},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Negative Test (Unauthorized User)","uid":"e1d8b972acc98535","parentUid":"34c2e2c5a88e06b7bc339110c2868be9","status":"passed","time":{"start":1732149545098,"stop":1732149545680,"duration":582},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Validate Unauthorised User can get users but different data","uid":"bf2085b9ad83ed2c","parentUid":"34c2e2c5a88e06b7bc339110c2868be9","status":"passed","time":{"start":1732149543741,"stop":1732149544158,"duration":417},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"34c2e2c5a88e06b7bc339110c2868be9"},{"name":"pid-54075-worker-2","children":[{"name":"Delete User - Unauthorised Test","uid":"24bf574863ab9ef2","parentUid":"cbf61c0e2091b36122c12f87d7c63047","status":"passed","time":{"start":1732150145962,"stop":1732150146652,"duration":690},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Negative Test (Invalid Data, non-existing ID)","uid":"54c3c98873aa16b8","parentUid":"cbf61c0e2091b36122c12f87d7c63047","status":"passed","time":{"start":1732150148777,"stop":1732150149438,"duration":661},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Create User - Positive Test (Authorized User)","uid":"3a22b07958c9b1b5","parentUid":"cbf61c0e2091b36122c12f87d7c63047","status":"passed","time":{"start":1732150148387,"stop":1732150148771,"duration":384},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"cbf61c0e2091b36122c12f87d7c63047"},{"name":"pid-53573-worker-1","children":[{"name":"Delete User - Negative Test (Invalid User)","uid":"773065d44c551cf9","parentUid":"1015741aeb8bf7153c67a91a9fb8308f","status":"passed","time":{"start":1732149543725,"stop":1732149544406,"duration":681},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Update User - Positive Test","uid":"e1ebf079dd7abc85","parentUid":"1015741aeb8bf7153c67a91a9fb8308f","status":"passed","time":{"start":1732149545232,"stop":1732149546330,"duration":1098},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"1015741aeb8bf7153c67a91a9fb8308f"},{"name":"pid-54550-worker-1","children":[{"name":"Update User - Positive Test","uid":"fcf09a25e650e77b","parentUid":"c52fdbdb00ce0b71b734ffdaee39862e","status":"passed","time":{"start":1732150458790,"stop":1732150460153,"duration":1363},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Delete User - Negative Test (Invalid User)","uid":"51d90ac790c686b5","parentUid":"c52fdbdb00ce0b71b734ffdaee39862e","status":"passed","time":{"start":1732150457274,"stop":1732150457908,"duration":634},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":3,"retriesStatusChange":false,"parameters":[],"tags":[]}],"uid":"c52fdbdb00ce0b71b734ffdaee39862e"}],"uid":"eee333cfcf528e83a546c53ec2d1800f"}]}
+{
+    "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "name": "timeline",
+    "children": [
+        {
+            "name": "Numanhans-MacBook-Pro-2.local",
+            "children": [
+                {
+                    "name": "pid-54446-worker-4",
+                    "children": [
+                        {
+                            "name": "Validate Unauthorised User can get users but different data",
+                            "uid": "f70afc5ea1c2eccc",
+                            "parentUid": "069bee779c7df240b056d3e1a617e6bd",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150382224,
+                                "stop": 1732150382953,
+                                "duration": 729
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate User can get a user by ID successfully",
+                            "uid": "b13969d12ae502df",
+                            "parentUid": "069bee779c7df240b056d3e1a617e6bd",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150382962,
+                                "stop": 1732150383633,
+                                "duration": 671
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate Unauthenticated User can't get user by ID",
+                            "uid": "c3b05392fd4d8501",
+                            "parentUid": "069bee779c7df240b056d3e1a617e6bd",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150383636,
+                                "stop": 1732150384284,
+                                "duration": 648
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Negative Test (Invalid Data)",
+                            "uid": "1472c307e22459c1",
+                            "parentUid": "069bee779c7df240b056d3e1a617e6bd",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150384470,
+                                "stop": 1732150385188,
+                                "duration": 718
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Negative Test (Unauthenticated)",
+                            "uid": "3372a287fdc283b8",
+                            "parentUid": "069bee779c7df240b056d3e1a617e6bd",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150385196,
+                                "stop": 1732150385938,
+                                "duration": 742
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "069bee779c7df240b056d3e1a617e6bd"
+                },
+                {
+                    "name": "pid-54446-worker-3",
+                    "children": [
+                        {
+                            "name": "Create User - Negative Test (Unauthorized User)",
+                            "uid": "e037a1a379e84e31",
+                            "parentUid": "33c5b5af8cd12ca776baa62214ac9163",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150384330,
+                                "stop": 1732150385240,
+                                "duration": 910
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate User gets 404 for non-existent user ID",
+                            "uid": "d9561dfb3b348bf0",
+                            "parentUid": "33c5b5af8cd12ca776baa62214ac9163",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150383483,
+                                "stop": 1732150384155,
+                                "duration": 672
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate Authorised User can get all users",
+                            "uid": "aa6ae51fa3237fa9",
+                            "parentUid": "33c5b5af8cd12ca776baa62214ac9163",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150382225,
+                                "stop": 1732150383475,
+                                "duration": 1250
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "33c5b5af8cd12ca776baa62214ac9163"
+                },
+                {
+                    "name": "pid-54550-worker-3",
+                    "children": [
+                        {
+                            "name": "Validate Unauthenticated User can't get user by ID",
+                            "uid": "5e879978be3721f9",
+                            "parentUid": "58688ec9fc07264dfcf8c23fe0c991cc",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150458162,
+                                "stop": 1732150458433,
+                                "duration": 271
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate Authorised User can get all users",
+                            "uid": "f615e34001da39a9",
+                            "parentUid": "58688ec9fc07264dfcf8c23fe0c991cc",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150457291,
+                                "stop": 1732150458153,
+                                "duration": 862
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Negative Test (Unauthorized User)",
+                            "uid": "48dbe87ed4bfff3d",
+                            "parentUid": "58688ec9fc07264dfcf8c23fe0c991cc",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150458609,
+                                "stop": 1732150459174,
+                                "duration": 565
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "58688ec9fc07264dfcf8c23fe0c991cc"
+                },
+                {
+                    "name": "pid-54075-worker-1",
+                    "children": [
+                        {
+                            "name": "Delete User - Negative Test (Invalid User)",
+                            "uid": "8424eeb7731f9d9",
+                            "parentUid": "7edb74e57535aeb92be6edd82031e8eb",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150145962,
+                                "stop": 1732150147560,
+                                "duration": 1598
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Negative Test (Unauthenticated)",
+                            "uid": "4c51a5611af6dd65",
+                            "parentUid": "7edb74e57535aeb92be6edd82031e8eb",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150149314,
+                                "stop": 1732150149999,
+                                "duration": 685
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "7edb74e57535aeb92be6edd82031e8eb"
+                },
+                {
+                    "name": "pid-54075-worker-0",
+                    "children": [
+                        {
+                            "name": "Delete User - Positive Test",
+                            "uid": "4bc5227482678a22",
+                            "parentUid": "98ff8036232a70cba114d64c4a334913",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150145962,
+                                "stop": 1732150146416,
+                                "duration": 454
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate Unauthenticated User can't get user by ID",
+                            "uid": "c5141d499fdcd2c1",
+                            "parentUid": "98ff8036232a70cba114d64c4a334913",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150148223,
+                                "stop": 1732150148630,
+                                "duration": 407
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Positive Test",
+                            "uid": "7dc20187ec30ef90",
+                            "parentUid": "98ff8036232a70cba114d64c4a334913",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150148807,
+                                "stop": 1732150150807,
+                                "duration": 2000
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "98ff8036232a70cba114d64c4a334913"
+                },
+                {
+                    "name": "pid-54550-worker-2",
+                    "children": [
+                        {
+                            "name": "Delete User - Unauthorised Test",
+                            "uid": "bb4b1ec17dede9f6",
+                            "parentUid": "3960ad64ba64bad98be7a1f891fd2a29",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150457272,
+                                "stop": 1732150457839,
+                                "duration": 567
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Negative Test (Unauthenticated)",
+                            "uid": "29631d8898092fd2",
+                            "parentUid": "3960ad64ba64bad98be7a1f891fd2a29",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150459108,
+                                "stop": 1732150459684,
+                                "duration": 576
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Positive Test (Authorized User)",
+                            "uid": "a4104985523ae615",
+                            "parentUid": "3960ad64ba64bad98be7a1f891fd2a29",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150458396,
+                                "stop": 1732150459104,
+                                "duration": 708
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "3960ad64ba64bad98be7a1f891fd2a29"
+                },
+                {
+                    "name": "pid-54446-worker-0",
+                    "children": [
+                        {
+                            "name": "Delete User - Positive Test",
+                            "uid": "6446dd826872caa7",
+                            "parentUid": "a6d6e05ab93bb3690a3bfa4a7fcb3d79",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150382209,
+                                "stop": 1732150382863,
+                                "duration": 654
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Positive Test",
+                            "uid": "12e923207a66d02",
+                            "parentUid": "a6d6e05ab93bb3690a3bfa4a7fcb3d79",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150384517,
+                                "stop": 1732150386019,
+                                "duration": 1502
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "a6d6e05ab93bb3690a3bfa4a7fcb3d79"
+                },
+                {
+                    "name": "pid-53573-worker-0",
+                    "children": [
+                        {
+                            "name": "Validate Unauthenticated User can't get user by ID",
+                            "uid": "516d3a20e65e4c6c",
+                            "parentUid": "916d81edb4dd2b605a79053a98c048b9",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149544494,
+                                "stop": 1732149545076,
+                                "duration": 582
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Delete User - Positive Test",
+                            "uid": "b05eda7fb0b61eeb",
+                            "parentUid": "916d81edb4dd2b605a79053a98c048b9",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149543725,
+                                "stop": 1732149544074,
+                                "duration": 349
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Negative Test (Invalid Data, non-existing ID)",
+                            "uid": "564995b80cfa9856",
+                            "parentUid": "916d81edb4dd2b605a79053a98c048b9",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149545254,
+                                "stop": 1732149546057,
+                                "duration": 803
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "916d81edb4dd2b605a79053a98c048b9"
+                },
+                {
+                    "name": "pid-54446-worker-2",
+                    "children": [
+                        {
+                            "name": "Update User - Negative Test (Invalid Data, non-existing ID)",
+                            "uid": "17c63d6d30b83330",
+                            "parentUid": "df371a33525cf7070d55999f880520a7",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150384532,
+                                "stop": 1732150385212,
+                                "duration": 680
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Delete User - Unauthorised Test",
+                            "uid": "ea564a1ddd77ebf4",
+                            "parentUid": "df371a33525cf7070d55999f880520a7",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150382209,
+                                "stop": 1732150383095,
+                                "duration": 886
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "df371a33525cf7070d55999f880520a7"
+                },
+                {
+                    "name": "pid-53573-worker-3",
+                    "children": [
+                        {
+                            "name": "Update User - Negative Test (Unauthenticated)",
+                            "uid": "8fa9330c4bc6bb80",
+                            "parentUid": "eafd50a5304e595ab620d6cad42b36ba",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149545680,
+                                "stop": 1732149545987,
+                                "duration": 307
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate User can get a user by ID successfully",
+                            "uid": "2abd32cc088436fb",
+                            "parentUid": "eafd50a5304e595ab620d6cad42b36ba",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149544151,
+                                "stop": 1732149544477,
+                                "duration": 326
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate Authorised User can get all users",
+                            "uid": "f9456a9d11db775a",
+                            "parentUid": "eafd50a5304e595ab620d6cad42b36ba",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149543745,
+                                "stop": 1732149544141,
+                                "duration": 396
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Positive Test (Authorized User)",
+                            "uid": "72113d49b38b5060",
+                            "parentUid": "eafd50a5304e595ab620d6cad42b36ba",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149544647,
+                                "stop": 1732149545676,
+                                "duration": 1029
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "eafd50a5304e595ab620d6cad42b36ba"
+                },
+                {
+                    "name": "pid-54446-worker-1",
+                    "children": [
+                        {
+                            "name": "Delete User - Negative Test (Invalid User)",
+                            "uid": "89ef8fd016815fb1",
+                            "parentUid": "60da5ab21b7f4cb678f95f74589990e8",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150382210,
+                                "stop": 1732150382811,
+                                "duration": 601
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Positive Test (Authorized User)",
+                            "uid": "94e75b95c1ed8a24",
+                            "parentUid": "60da5ab21b7f4cb678f95f74589990e8",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150384283,
+                                "stop": 1732150385210,
+                                "duration": 927
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "60da5ab21b7f4cb678f95f74589990e8"
+                },
+                {
+                    "name": "pid-54550-worker-4",
+                    "children": [
+                        {
+                            "name": "Validate Unauthorised User can get users but different data",
+                            "uid": "5b8b59905d16df8",
+                            "parentUid": "2b67f06c2cd25518495683cd1eb954c6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150457291,
+                                "stop": 1732150457660,
+                                "duration": 369
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Negative Test (Invalid Data, non-existing ID)",
+                            "uid": "71820ff77ea09d43",
+                            "parentUid": "2b67f06c2cd25518495683cd1eb954c6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150458883,
+                                "stop": 1732150459498,
+                                "duration": 615
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate User gets 404 for non-existent user ID",
+                            "uid": "b923bde9ef7064fa",
+                            "parentUid": "2b67f06c2cd25518495683cd1eb954c6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150458137,
+                                "stop": 1732150458711,
+                                "duration": 574
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate User can get a user by ID successfully",
+                            "uid": "8152bb6bfe4cd786",
+                            "parentUid": "2b67f06c2cd25518495683cd1eb954c6",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150457670,
+                                "stop": 1732150458133,
+                                "duration": 463
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "2b67f06c2cd25518495683cd1eb954c6"
+                },
+                {
+                    "name": "pid-53573-worker-2",
+                    "children": [
+                        {
+                            "name": "Delete User - Unauthorised Test",
+                            "uid": "d386258a7fe09c70",
+                            "parentUid": "c83afe8ec1912907f7d3ba9dc3e18bf3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149543724,
+                                "stop": 1732149544290,
+                                "duration": 566
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Negative Test (Invalid Data)",
+                            "uid": "d462119e6a5287cc",
+                            "parentUid": "c83afe8ec1912907f7d3ba9dc3e18bf3",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149545118,
+                                "stop": 1732149545678,
+                                "duration": 560
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "c83afe8ec1912907f7d3ba9dc3e18bf3"
+                },
+                {
+                    "name": "pid-54075-worker-3",
+                    "children": [
+                        {
+                            "name": "Validate User gets 404 for non-existent user ID",
+                            "uid": "7e6ebcf9c235b14d",
+                            "parentUid": "1d67486e80348a1dbee7552e47d48638",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150147718,
+                                "stop": 1732150148505,
+                                "duration": 787
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Negative Test (Unauthorized User)",
+                            "uid": "17ba2c3f4607522b",
+                            "parentUid": "1d67486e80348a1dbee7552e47d48638",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150148685,
+                                "stop": 1732150149242,
+                                "duration": 557
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate Authorised User can get all users",
+                            "uid": "c48b092acb23dd67",
+                            "parentUid": "1d67486e80348a1dbee7552e47d48638",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150145978,
+                                "stop": 1732150147712,
+                                "duration": 1734
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "1d67486e80348a1dbee7552e47d48638"
+                },
+                {
+                    "name": "pid-54075-worker-4",
+                    "children": [
+                        {
+                            "name": "Validate Unauthorised User can get users but different data",
+                            "uid": "1f485b25866f1fa5",
+                            "parentUid": "1a147a78bbc57622138345df604bc9f5",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150145979,
+                                "stop": 1732150147396,
+                                "duration": 1417
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate User can get a user by ID successfully",
+                            "uid": "55d8953a409a330a",
+                            "parentUid": "1a147a78bbc57622138345df604bc9f5",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150147406,
+                                "stop": 1732150148586,
+                                "duration": 1180
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Negative Test (Invalid Data)",
+                            "uid": "fdeee29efed7fff7",
+                            "parentUid": "1a147a78bbc57622138345df604bc9f5",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150148766,
+                                "stop": 1732150149383,
+                                "duration": 617
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "1a147a78bbc57622138345df604bc9f5"
+                },
+                {
+                    "name": "pid-54550-worker-0",
+                    "children": [
+                        {
+                            "name": "Delete User - Positive Test",
+                            "uid": "c4e029dd6ea51923",
+                            "parentUid": "d2d1d7997091beb3accb93bf9c8bcdee",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150457274,
+                                "stop": 1732150457682,
+                                "duration": 408
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Negative Test (Invalid Data)",
+                            "uid": "2b8d5f5861c344ee",
+                            "parentUid": "d2d1d7997091beb3accb93bf9c8bcdee",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150458641,
+                                "stop": 1732150459281,
+                                "duration": 640
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "d2d1d7997091beb3accb93bf9c8bcdee"
+                },
+                {
+                    "name": "pid-53573-worker-4",
+                    "children": [
+                        {
+                            "name": "Validate User gets 404 for non-existent user ID",
+                            "uid": "c608e29170042d9d",
+                            "parentUid": "34c2e2c5a88e06b7bc339110c2868be9",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149544165,
+                                "stop": 1732149544909,
+                                "duration": 744
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Negative Test (Unauthorized User)",
+                            "uid": "e1d8b972acc98535",
+                            "parentUid": "34c2e2c5a88e06b7bc339110c2868be9",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149545098,
+                                "stop": 1732149545680,
+                                "duration": 582
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Validate Unauthorised User can get users but different data",
+                            "uid": "bf2085b9ad83ed2c",
+                            "parentUid": "34c2e2c5a88e06b7bc339110c2868be9",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149543741,
+                                "stop": 1732149544158,
+                                "duration": 417
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "34c2e2c5a88e06b7bc339110c2868be9"
+                },
+                {
+                    "name": "pid-54075-worker-2",
+                    "children": [
+                        {
+                            "name": "Delete User - Unauthorised Test",
+                            "uid": "24bf574863ab9ef2",
+                            "parentUid": "cbf61c0e2091b36122c12f87d7c63047",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150145962,
+                                "stop": 1732150146652,
+                                "duration": 690
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Negative Test (Invalid Data, non-existing ID)",
+                            "uid": "54c3c98873aa16b8",
+                            "parentUid": "cbf61c0e2091b36122c12f87d7c63047",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150148777,
+                                "stop": 1732150149438,
+                                "duration": 661
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Create User - Positive Test (Authorized User)",
+                            "uid": "3a22b07958c9b1b5",
+                            "parentUid": "cbf61c0e2091b36122c12f87d7c63047",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150148387,
+                                "stop": 1732150148771,
+                                "duration": 384
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "cbf61c0e2091b36122c12f87d7c63047"
+                },
+                {
+                    "name": "pid-53573-worker-1",
+                    "children": [
+                        {
+                            "name": "Delete User - Negative Test (Invalid User)",
+                            "uid": "773065d44c551cf9",
+                            "parentUid": "1015741aeb8bf7153c67a91a9fb8308f",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149543725,
+                                "stop": 1732149544406,
+                                "duration": 681
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Update User - Positive Test",
+                            "uid": "e1ebf079dd7abc85",
+                            "parentUid": "1015741aeb8bf7153c67a91a9fb8308f",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732149545232,
+                                "stop": 1732149546330,
+                                "duration": 1098
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 0,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "1015741aeb8bf7153c67a91a9fb8308f"
+                },
+                {
+                    "name": "pid-54550-worker-1",
+                    "children": [
+                        {
+                            "name": "Update User - Positive Test",
+                            "uid": "fcf09a25e650e77b",
+                            "parentUid": "c52fdbdb00ce0b71b734ffdaee39862e",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150458790,
+                                "stop": 1732150460153,
+                                "duration": 1363
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        },
+                        {
+                            "name": "Delete User - Negative Test (Invalid User)",
+                            "uid": "51d90ac790c686b5",
+                            "parentUid": "c52fdbdb00ce0b71b734ffdaee39862e",
+                            "status": "passed",
+                            "time": {
+                                "start": 1732150457274,
+                                "stop": 1732150457908,
+                                "duration": 634
+                            },
+                            "flaky": false,
+                            "newFailed": false,
+                            "newPassed": false,
+                            "newBroken": false,
+                            "retriesCount": 3,
+                            "retriesStatusChange": false,
+                            "parameters": [],
+                            "tags": []
+                        }
+                    ],
+                    "uid": "c52fdbdb00ce0b71b734ffdaee39862e"
+                }
+            ],
+            "uid": "eee333cfcf528e83a546c53ec2d1800f"
+        }
+    ]
+}

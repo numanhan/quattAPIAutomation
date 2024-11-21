@@ -1,1 +1,142 @@
-{"uid":"c4e029dd6ea51923","name":"Delete User - Positive Test","fullName":"usersDelete.spec.js:26:5","historyId":"30fc4455ce9577ec41619320011a1f71:d41d8cd98f00b204e9800998ecf8427e","time":{"start":1732150457274,"stop":1732150457682,"duration":408},"status":"passed","flaky":false,"newFailed":false,"newBroken":false,"newPassed":false,"retriesCount":3,"retriesStatusChange":false,"beforeStages":[],"testStage":{"status":"passed","steps":[{"name":"Before Hooks","time":{"start":1732150457277,"stop":1732150458046,"duration":769},"status":"passed","steps":[{"name":"beforeAll hook","time":{"start":1732150457278,"stop":1732150458043,"duration":765},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"After Hooks","time":{"start":1732150458452,"stop":1732150458453,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[{"uid":"2828a02c87bca7c9","name":"stdout","source":"2828a02c87bca7c9.txt","type":"text/plain","size":124}],"parameters":[],"shouldDisplayMessage":false,"stepsCount":3,"attachmentsCount":1,"hasContent":true,"attachmentStep":false},"afterStages":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"usersDelete.spec.js"},{"name":"titlePath","value":" >  > usersDelete.spec.js > API Endpoint: Delete User"},{"name":"host","value":"Numanhans-MacBook-Pro-2.local"},{"name":"thread","value":"pid-54550-worker-0"},{"name":"suite","value":"usersDelete.spec.js"},{"name":"subSuite","value":"API Endpoint: Delete User"},{"name":"resultFormat","value":"allure2"}],"parameters":[],"links":[],"hidden":false,"retry":false,"extra":{"severity":"normal","retries":[{"uid":"6446dd826872caa7","status":"passed","time":{"start":1732150382209,"stop":1732150382863,"duration":654}},{"uid":"4bc5227482678a22","status":"passed","time":{"start":1732150145962,"stop":1732150146416,"duration":454}},{"uid":"b05eda7fb0b61eeb","status":"passed","time":{"start":1732149543725,"stop":1732149544074,"duration":349}}],"categories":[],"tags":[]},"source":"c4e029dd6ea51923.json","parameterValues":[]}
+{
+    "uid": "c4e029dd6ea51923",
+    "name": "Delete User - Positive Test",
+    "fullName": "usersDelete.spec.js:26:5",
+    "historyId": "30fc4455ce9577ec41619320011a1f71:d41d8cd98f00b204e9800998ecf8427e",
+    "time": { "start": 1732150457274, "stop": 1732150457682, "duration": 408 },
+    "status": "passed",
+    "flaky": false,
+    "newFailed": false,
+    "newBroken": false,
+    "newPassed": false,
+    "retriesCount": 3,
+    "retriesStatusChange": false,
+    "beforeStages": [],
+    "testStage": {
+        "status": "passed",
+        "steps": [
+            {
+                "name": "Before Hooks",
+                "time": {
+                    "start": 1732150457277,
+                    "stop": 1732150458046,
+                    "duration": 769
+                },
+                "status": "passed",
+                "steps": [
+                    {
+                        "name": "beforeAll hook",
+                        "time": {
+                            "start": 1732150457278,
+                            "stop": 1732150458043,
+                            "duration": 765
+                        },
+                        "status": "passed",
+                        "steps": [],
+                        "attachments": [],
+                        "parameters": [],
+                        "shouldDisplayMessage": false,
+                        "stepsCount": 0,
+                        "attachmentsCount": 0,
+                        "hasContent": false,
+                        "attachmentStep": false
+                    }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 1,
+                "attachmentsCount": 0,
+                "hasContent": true,
+                "attachmentStep": false
+            },
+            {
+                "name": "After Hooks",
+                "time": {
+                    "start": 1732150458452,
+                    "stop": 1732150458453,
+                    "duration": 1
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+            }
+        ],
+        "attachments": [
+            {
+                "uid": "2828a02c87bca7c9",
+                "name": "stdout",
+                "source": "2828a02c87bca7c9.txt",
+                "type": "text/plain",
+                "size": 124
+            }
+        ],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 3,
+        "attachmentsCount": 1,
+        "hasContent": true,
+        "attachmentStep": false
+    },
+    "afterStages": [],
+    "labels": [
+        { "name": "language", "value": "javascript" },
+        { "name": "framework", "value": "playwright" },
+        { "name": "package", "value": "usersDelete.spec.js" },
+        {
+            "name": "titlePath",
+            "value": " >  > usersDelete.spec.js > API Endpoint: Delete User"
+        },
+        { "name": "host", "value": "Numanhans-MacBook-Pro-2.local" },
+        { "name": "thread", "value": "pid-54550-worker-0" },
+        { "name": "suite", "value": "usersDelete.spec.js" },
+        { "name": "subSuite", "value": "API Endpoint: Delete User" },
+        { "name": "resultFormat", "value": "allure2" }
+    ],
+    "parameters": [],
+    "links": [],
+    "hidden": false,
+    "retry": false,
+    "extra": {
+        "severity": "normal",
+        "retries": [
+            {
+                "uid": "6446dd826872caa7",
+                "status": "passed",
+                "time": {
+                    "start": 1732150382209,
+                    "stop": 1732150382863,
+                    "duration": 654
+                }
+            },
+            {
+                "uid": "4bc5227482678a22",
+                "status": "passed",
+                "time": {
+                    "start": 1732150145962,
+                    "stop": 1732150146416,
+                    "duration": 454
+                }
+            },
+            {
+                "uid": "b05eda7fb0b61eeb",
+                "status": "passed",
+                "time": {
+                    "start": 1732149543725,
+                    "stop": 1732149544074,
+                    "duration": 349
+                }
+            }
+        ],
+        "categories": [],
+        "tags": []
+    },
+    "source": "c4e029dd6ea51923.json",
+    "parameterValues": []
+}

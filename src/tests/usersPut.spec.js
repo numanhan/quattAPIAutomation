@@ -37,10 +37,12 @@ test.describe('API Endpoint: Update User', () => {
         const createResponse = await createUser(baseURL, newUserData);
         console.log('Create User Response:', createResponse); // Logging the response
 
-        // Check if there's any error 
+        // Check if there's any error
         if (createResponse.status !== 201) {
             console.error('Error creating user:', createResponse.json);
-            throw new Error(`Failed to create user. Status: ${createResponse.status}`);
+            throw new Error(
+                `Failed to create user. Status: ${createResponse.status}`
+            );
         }
 
         createdUserId = createResponse.json.id;
@@ -109,7 +111,11 @@ test.describe('API Endpoint: Update User', () => {
         };
 
         // Trying to update with valid data but unauth user
-        const response = await updateUserUnAuth(baseURL, unauthTestUserId, updatedData);
+        const response = await updateUserUnAuth(
+            baseURL,
+            unauthTestUserId,
+            updatedData
+        );
         console.log('Unauthenticated Test Response:', response);
 
         // Check `401` error status code

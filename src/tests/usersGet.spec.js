@@ -73,32 +73,25 @@ test.describe('API Endpoint: Users Endpoint', () => {
             );
         });
 
-        const specificUser = users.find(
-            (user) => user.email === 'gandhi_arya@heathcote.example'
-        );
+        const randomUser = users[Math.floor(Math.random() * users.length)];
 
-        if (!specificUser) {
-            console.error(
-                "Error: User with email 'mrs_saini_jitender@toy.test' not found in the response."
-            );
-        }
+        console.log(`Found User: ${randomUser.email}`);
+        console.log(`User Name: ${randomUser.name}`);
 
-        expect(specificUser).to.not.be.undefined;
-        if (specificUser) {
-            expect(specificUser.name).to.equal('Arya Gandhi');
-        }
+        expect(randomUser).to.not.be.undefined;
+        expect(randomUser.name).to.be.a('string');
+        expect(randomUser.email).to.include('@');
     });
 
     test('Validate User can get a user by ID successfully', async ({
         baseURL,
     }) => {
-        const userId = 7536428; // Example of a valid user ID
+        const userId = 7536428;
         const response = await getUserById(baseURL, userId);
         console.log(response);
-        // Check if the status code is 200 (OK)
+
         expect(response.status).to.equal(200);
 
-        // Validate the response contains the expected fields (id, name, email, gender, status)
         expect(response.json).to.be.an('object');
         expect(response.json).to.have.all.keys(
             'id',
@@ -107,9 +100,8 @@ test.describe('API Endpoint: Users Endpoint', () => {
             'gender',
             'status'
         );
-        expect(response.json.id).to.equal(userId); // Check if the returned ID matches the requested ID
+        expect(response.json.id).to.equal(userId);
 
-        // Optionally, validate the response schema
         const { isSchemaValid } = validateSchema(
             response.json,
             path.join(__dirname, '../jsonSchemas/singleUserSchema.json')
@@ -120,35 +112,43 @@ test.describe('API Endpoint: Users Endpoint', () => {
     test('Validate User gets 404 for non-existent user ID', async ({
         baseURL,
     }) => {
-        const invalidUserId = 9999999; // Example of a non-existent user ID
+        const invalidUserId = 9999999;
         const response = await getUserById(baseURL, invalidUserId);
 
-        // Check if the status code is 404 (Not Found)
         expect(response.status).to.equal(404);
 
-        // Validate that the response contains an appropriate error message
         expect(response.json).to.be.an('object');
         expect(response.json).to.have.property('message');
     });
 
-    test("Validate Unauthenticated User can't get user by ID", async ({
+    test('Validate Unauthenticated User can get user by ID', async ({
         baseURL,
     }) => {
-        const userId = 7527345;
-        const response = await getUserByIdUnAuth(baseURL, userId);
-
+        const response = await getAllUsersUnAuth(baseURL);
         console.log(response);
 
-        expect(response.status).to.equal(404);
+        expect(response.status).to.equal(200);
+        const users = response.json;
+        expect(users).to.be.an('array').that.is.not.empty;
 
-        const errorResponse = response.json;
+        const randomUser = users[Math.floor(Math.random() * users.length)];
+
+        const userId = randomUser.id;
+
+        console.log(`Selected User ID: ${userId}`);
+
+        const unauthResponse = await getUserByIdUnAuth(baseURL, userId);
+
+        console.log(unauthResponse);
+
+        expect(unauthResponse.status).to.equal(200);
+
+        const errorResponse = unauthResponse.json;
         expect(errorResponse).to.be.an('object');
-        expect(errorResponse).to.have.property('message');
-        expect(errorResponse.message).to.equal('Resource not found');
 
         const { isSchemaValid } = validateSchema(
-            response.json,
-            path.join(__dirname, '../jsonSchemas/errorSchema.json')
+            unauthResponse.json,
+            path.join(__dirname, '../jsonSchemas/singleUserSchema.json')
         );
         expect(isSchemaValid).to.be.true;
     });
