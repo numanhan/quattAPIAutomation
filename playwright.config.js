@@ -15,16 +15,30 @@ module.exports = defineConfig({
     /* Opt out of parallel tests on CI. */
     workers: process.env.CI ? 1 : undefined,
     /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-    reporter: [['allure-playwright']],
+    reporter: [
+        ['dot'],
+        ['allure-playwright'],
+        [
+            'json',
+            {
+                outputFile: 'jsonReports/jsonReport.json',
+            },
+        ],
+
+        [
+            'html',
+            {
+                open: 'never',
+            },
+        ],
+    ],
     /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
     use: {
         /* Base URL to use for API requests */
         baseURL: 'https://gorest.co.in/public/v2', // GoRest API base URL
 
-
         /* Collect trace when retrying the failed test. */
         trace: 'on-first-retry',
-
     },
 
     /* Configure projects for major browsers */

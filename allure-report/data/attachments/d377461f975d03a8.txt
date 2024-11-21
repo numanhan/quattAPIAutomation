@@ -1,0 +1,2 @@
+{ status: 401, json: { message: 'Authentication failed' } }
+Schema validation completed successfully.

@@ -1,0 +1,11 @@
+{
+  status: 200,
+  json: {
+    id: 7536428,
+    name: 'Updated User Name',
+    email: 'Raina_Cummings78@hotmail.com',
+    gender: 'female',
+    status: 'active'
+  }
+}
+Schema validation completed successfully.

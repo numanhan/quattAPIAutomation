@@ -1,0 +1,9 @@
+{
+  id: 9619454,
+  name: 'Shelia Torphy',
+  email: 'Jon93@gmail.com',
+  gender: 'male',
+  status: 'active'
+}
+{ status: 401, json: { message: 'Authentication failed' } }
+Schema validation completed successfully.

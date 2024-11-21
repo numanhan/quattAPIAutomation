@@ -1,0 +1,3 @@
+Selected Random User ID for Positive Test: 7536507
+Negative Test Response: { status: 404, json: { message: 'Resource not found' } }
+Response code is 404

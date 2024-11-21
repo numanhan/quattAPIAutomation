@@ -1,0 +1,3 @@
+Selected Random User ID for Positive Test: 7536501
+Positive Test Response: { status: 204, json: null }
+Response code is 204
