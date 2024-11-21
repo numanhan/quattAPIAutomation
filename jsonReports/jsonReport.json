@@ -65,20 +65,20 @@
   },
   "suites": [
     {
-      "title": "usersPut.spec.js",
-      "file": "usersPut.spec.js",
+      "title": "usersDelete.spec.js",
+      "file": "usersDelete.spec.js",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "API Endpoint: Update User",
-          "file": "usersPut.spec.js",
-          "line": 14,
+          "title": "API Endpoint: Delete User",
+          "file": "usersDelete.spec.js",
+          "line": 33,
           "column": 6,
           "specs": [
             {
-              "title": "Update User - Positive Test",
+              "title": "Delete User - Positive Test",
               "ok": true,
               "tags": [],
               "tests": [
@@ -92,44 +92,44 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1115,
+                      "duration": 980,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Unauthenticated Test User ID: 7537339\n"
+                          "text": "Fetching users...\n"
                         },
                         {
-                          "text": "Generated User Data for Create: {\n  id: 5243614,\n  name: 'Ebony Boyer',\n  email: 'Dewitt.Oberbrunner@yahoo.com',\n  gender: 'female',\n  status: 'active'\n}\n"
+                          "text": "Selected Random User ID for Positive Test: 7537674\n"
                         },
                         {
-                          "text": "Create User Response: {\n  status: 201,\n  json: {\n    id: 7537748,\n    name: 'Ebony Boyer',\n    email: 'Dewitt.Oberbrunner@yahoo.com',\n    gender: 'female',\n    status: 'active'\n  }\n}\n"
+                          "text": "Selected Random User ID for Unauthorised Test: 7537719\n"
                         },
                         {
-                          "text": "Created User ID for Positive Test: 7537748\n"
+                          "text": "Running Positive Test with User ID: 7537674\n"
                         },
                         {
-                          "text": "Update User Response: {\n  status: 200,\n  json: {\n    email: 'Hayley.Bernhard99@gmail.com',\n    name: 'Updated User Name',\n    gender: 'female',\n    status: 'active',\n    id: 7537748\n  }\n}\n"
+                          "text": "Positive Test Response: { status: 204, json: null }\n"
                         },
                         {
-                          "text": "Schema validation completed successfully.\n"
+                          "text": "Response code is 204\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-11-21T19:40:15.127Z",
+                      "startTime": "2024-11-21T19:54:50.356Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "a6ce2d226547a0ec86b1-689013bf22477dbced22",
-              "file": "usersPut.spec.js",
-              "line": 32,
+              "id": "0fe92ab34c1b8601ccd5-c1d5da68b9d45631bcb7",
+              "file": "usersDelete.spec.js",
+              "line": 34,
               "column": 5
             },
             {
-              "title": "Update User - Negative Test (Invalid Data, non-existing ID)",
+              "title": "Delete User - Unauthorised Test",
               "ok": true,
               "tags": [],
               "tests": [
@@ -143,35 +143,44 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 809,
+                      "duration": 747,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Unauthenticated Test User ID: 7537321\n"
+                          "text": "Fetching users...\n"
                         },
                         {
-                          "text": "Negative Test Response: { status: 404, json: { message: 'Resource not found' } }\n"
+                          "text": "Selected Random User ID for Positive Test: 7537678\n"
                         },
                         {
-                          "text": "Schema validation completed successfully.\n"
+                          "text": "Selected Random User ID for Unauthorised Test: 7537668\n"
+                        },
+                        {
+                          "text": "Running Unauthorised Test with User ID: 7537668\n"
+                        },
+                        {
+                          "text": "Unauthorised Test Response: { status: 404, json: { message: 'Resource not found' } }\n"
+                        },
+                        {
+                          "text": "Response code is 404\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-11-21T19:40:15.128Z",
+                      "startTime": "2024-11-21T19:54:50.356Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "a6ce2d226547a0ec86b1-15ad52e5cf3916bd3d25",
-              "file": "usersPut.spec.js",
-              "line": 73,
+              "id": "0fe92ab34c1b8601ccd5-fbd5b7c9eea515a24323",
+              "file": "usersDelete.spec.js",
+              "line": 47,
               "column": 5
             },
             {
-              "title": "Update User - Negative Test (Unauthenticated)",
+              "title": "Delete User - Negative Test (Invalid User)",
               "ok": true,
               "tags": [],
               "tests": [
@@ -185,31 +194,31 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 284,
+                      "duration": 481,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Unauthenticated Test User ID: 7537322\n"
+                          "text": "Running Negative Test with Invalid User ID: 3\n"
                         },
                         {
-                          "text": "Unauthenticated Test Response: { status: 401, json: { message: 'Authentication failed' } }\n"
+                          "text": "Negative Test Response: { status: 404, json: { message: 'Resource not found' } }\n"
                         },
                         {
-                          "text": "Schema validation completed successfully.\n"
+                          "text": "Response code is 404\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-11-21T19:40:15.128Z",
+                      "startTime": "2024-11-21T19:54:50.355Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "a6ce2d226547a0ec86b1-0dc83aeec69b16f02d48",
-              "file": "usersPut.spec.js",
-              "line": 101,
+              "id": "0fe92ab34c1b8601ccd5-5485b7e4dd768808bdeb",
+              "file": "usersDelete.spec.js",
+              "line": 63,
               "column": 5
             }
           ]
@@ -219,8 +228,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-11-21T19:40:14.427Z",
-    "duration": 6168.336,
+    "startTime": "2024-11-21T19:54:50.121Z",
+    "duration": 1235.1870000000001,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,

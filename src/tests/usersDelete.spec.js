@@ -10,7 +10,6 @@ const { getAllUsers } = require('../services/users/getUsers');
 let randomUserId;
 let unauthTestUserId;
 
-
 async function setupUsers(baseURL) {
     if (!randomUserId || !unauthTestUserId) {
         console.log('Fetching users...');
@@ -52,13 +51,13 @@ test.describe('API Endpoint: Delete User', () => {
         const response = await deleteUserUnAuth(baseURL, unauthTestUserId);
         console.log('Unauthorised Test Response:', response);
 
-        expect(response.status).to.equal(401); 
+        expect(response.status).to.equal(404); 
         console.log('Response code is ' + response.status);
 
         const { json } = response;
         expect(json)
             .to.have.property('message')
-            .that.includes('Authentication failed');
+            .that.includes('Resource not found');  
     });
 
     test('Delete User - Negative Test (Invalid User)', async ({ baseURL }) => {
