@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 5
+      "actualWorkers": 3
     },
     "preserveOutput": "always",
     "reporter": [
@@ -74,7 +74,7 @@
         {
           "title": "API Endpoint: Delete User",
           "file": "usersDelete.spec.js",
-          "line": 10,
+          "line": 34,
           "column": 6,
           "specs": [
             {
@@ -92,11 +92,20 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 408,
+                      "duration": 1507,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Selected Random User ID for Positive Test: 7536505\n"
+                          "text": "Fetching users...\n"
+                        },
+                        {
+                          "text": "Selected Random User ID for Positive Test: 7537352\n"
+                        },
+                        {
+                          "text": "Selected Random User ID for Unauthorised Test: 7537323\n"
+                        },
+                        {
+                          "text": "Running Positive Test with User ID: 7537352\n"
                         },
                         {
                           "text": "Positive Test Response: { status: 204, json: null }\n"
@@ -107,7 +116,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-11-21T00:54:17.273Z",
+                      "startTime": "2024-11-21T19:13:25.023Z",
                       "attachments": []
                     }
                   ],
@@ -116,49 +125,7 @@
               ],
               "id": "0fe92ab34c1b8601ccd5-c1d5da68b9d45631bcb7",
               "file": "usersDelete.spec.js",
-              "line": 26,
-              "column": 5
-            },
-            {
-              "title": "Delete User - Negative Test (Invalid User)",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 634,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "Selected Random User ID for Positive Test: 7536510\n"
-                        },
-                        {
-                          "text": "Negative Test Response: { status: 404, json: { message: 'Resource not found' } }\n"
-                        },
-                        {
-                          "text": "Response code is 404\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:17.274Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "0fe92ab34c1b8601ccd5-5485b7e4dd768808bdeb",
-              "file": "usersDelete.spec.js",
-              "line": 36,
+              "line": 35,
               "column": 5
             },
             {
@@ -174,13 +141,22 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 567,
+                      "duration": 1315,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "Selected Random User ID for Positive Test: 7536507\n"
+                          "text": "Fetching users...\n"
+                        },
+                        {
+                          "text": "Selected Random User ID for Positive Test: 7537322\n"
+                        },
+                        {
+                          "text": "Selected Random User ID for Unauthorised Test: 7537335\n"
+                        },
+                        {
+                          "text": "Running Unauthorised Test with User ID: 7537335\n"
                         },
                         {
                           "text": "Unauthorised Test Response: { status: 401, json: { message: 'Authentication failed' } }\n"
@@ -191,7 +167,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-11-21T00:54:17.271Z",
+                      "startTime": "2024-11-21T19:13:25.023Z",
                       "attachments": []
                     }
                   ],
@@ -200,239 +176,11 @@
               ],
               "id": "0fe92ab34c1b8601ccd5-fbd5b7c9eea515a24323",
               "file": "usersDelete.spec.js",
-              "line": 50,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "usersGet.spec.js",
-      "file": "usersGet.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "API Endpoint: Users Endpoint",
-          "file": "usersGet.spec.js",
-          "line": 13,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Validate Authorised User can get all users",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "status": "passed",
-                      "duration": 862,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  status: 200,\n  json: [\n    {\n      id: 7536512,\n      name: 'Updated User Name',\n      email: 'Erna_Lockman@gmail.com',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536511,\n      name: 'Ms. Meghan Ryan',\n      email: 'Flavio23@gmail.com',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536510,\n      name: 'Updated User Name',\n      email: 'Casper.Nolan@yahoo.com',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536509,\n      name: 'Cassandra Graham',\n      email: 'Cicero_Stiedemann@hotmail.com',\n      gender: 'male',\n      status: 'active'\n    },\n    {\n      id: 7536508,\n      name: 'Updated User Name',\n      email: 'Christophe1@gmail.com',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536507,\n      name: 'Daryl Stanton',\n      email: 'Cathrine27@hotmail.com',\n      gender: 'male',\n      status: 'active'\n    },\n    {\n      id: 7536506,\n      name: 'Updated User Name',\n      email: 'Hank_Bosco7@yahoo.com',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536505,\n      name: 'Krista Ortiz',\n      email: 'Vinnie.Armstrong@gmail.com',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536504,\n      name: 'Updated User Name',\n      email: 'Mabelle_Schmitt7@gmail.com',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536502,\n      name: 'Updated User Name',\n      email: 'Jerod.Effertz3@yahoo.com',\n      gender: 'female',\n      status: 'active'\n    }\n  ]\n}\n"
-                        },
-                        {
-                          "text": "Response code is 200\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:17.291Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "05446cac7f00f872a7a0-2a01060d93206f5d15e4",
-              "file": "usersGet.spec.js",
-              "line": 14,
+              "line": 48,
               "column": 5
             },
             {
-              "title": "Validate Unauthorised User can get users but different data",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "status": "passed",
-                      "duration": 369,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  status: 200,\n  json: [\n    {\n      id: 7536397,\n      name: 'Vaidehi Gill',\n      email: 'gill_vaidehi@jaskolski.example',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536394,\n      name: 'Ms. Kanti Agarwal',\n      email: 'agarwal_ms_kanti@spencer.example',\n      gender: 'male',\n      status: 'active'\n    },\n    {\n      id: 7536393,\n      name: 'Arya Gandhi',\n      email: 'gandhi_arya@heathcote.example',\n      gender: 'female',\n      status: 'inactive'\n    },\n    {\n      id: 7536392,\n      name: 'Deepan Desai',\n      email: 'desai_deepan@monahan.example',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536390,\n      name: 'Lai Ahuja',\n      email: 'lai_ahuja@ohara-klein.example',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536389,\n      name: 'Rukmin Guneta',\n      email: 'guneta_rukmin@yundt-gottlieb.example',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536388,\n      name: 'Dwaipayana Rana',\n      email: 'dwaipayana_rana@stoltenberg.example',\n      gender: 'male',\n      status: 'active'\n    },\n    {\n      id: 7536387,\n      name: 'Prathamesh Kapoor',\n      email: 'prathamesh_kapoor@hessel-roberts.test',\n      gender: 'female',\n      status: 'active'\n    },\n    {\n      id: 7536386,\n      name: 'Laxmi Patel',\n      email: 'patel_laxmi@lebsack.example',\n      gender: 'female',\n      status: 'inactive'\n    },\n    {\n      id: 7536385,\n      name: 'Basanti Dutta',\n      email: 'dutta_basanti@hudson.test',\n      gender: 'female',\n      status: 'active'\n    }\n  ]\n}\n"
-                        },
-                        {
-                          "text": "Response code is 200\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:17.290Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "05446cac7f00f872a7a0-186b1b3d9727510add0e",
-              "file": "usersGet.spec.js",
-              "line": 46,
-              "column": 5
-            },
-            {
-              "title": "Validate User can get a user by ID successfully",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "status": "passed",
-                      "duration": 463,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  status: 200,\n  json: {\n    id: 7536428,\n    name: 'Updated User Name',\n    email: 'Raina_Cummings78@hotmail.com',\n    gender: 'female',\n    status: 'active'\n  }\n}\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:17.670Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "05446cac7f00f872a7a0-f2466bad64e610f00ea9",
-              "file": "usersGet.spec.js",
-              "line": 92,
-              "column": 5
-            },
-            {
-              "title": "Validate User gets 404 for non-existent user ID",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "status": "passed",
-                      "duration": 574,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:18.136Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "05446cac7f00f872a7a0-1f2093f508b0b409214b",
-              "file": "usersGet.spec.js",
-              "line": 120,
-              "column": 5
-            },
-            {
-              "title": "Validate Unauthenticated User can't get user by ID",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "status": "passed",
-                      "duration": 271,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{ status: 404, json: { message: 'Resource not found' } }\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:18.161Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "05446cac7f00f872a7a0-5b2df841fecbc4c14945",
-              "file": "usersGet.spec.js",
-              "line": 134,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "usersPost.spec.js",
-      "file": "usersPost.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "API Endpoint: Create User",
-          "file": "usersPost.spec.js",
-          "line": 12,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Create User - Positive Test (Authorized User)",
+              "title": "Delete User - Negative Test (Invalid User)",
               "ok": true,
               "tags": [],
               "tests": [
@@ -446,246 +194,31 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 708,
+                      "duration": 307,
                       "errors": [],
                       "stdout": [
                         {
-                          "text": "{\n  id: 3639951,\n  name: 'Sergio Daniel',\n  email: 'Prudence_Thompson@gmail.com',\n  gender: 'male',\n  status: 'active'\n}\n"
+                          "text": "Running Negative Test with Invalid User ID: 3\n"
                         },
                         {
-                          "text": "{\n  status: 201,\n  json: {\n    id: 7536513,\n    name: 'Sergio Daniel',\n    email: 'Prudence_Thompson@gmail.com',\n    gender: 'male',\n    status: 'active'\n  }\n}\n"
+                          "text": "Negative Test Response: { status: 404, json: { message: 'Resource not found' } }\n"
                         },
                         {
-                          "text": "Schema validation completed successfully.\n"
+                          "text": "Response code is 404\n"
                         }
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-11-21T00:54:18.395Z",
+                      "startTime": "2024-11-21T19:13:25.023Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "ed4c5f2c991c0aad29d6-cac281ef2dfce920df4c",
-              "file": "usersPost.spec.js",
-              "line": 13,
-              "column": 5
-            },
-            {
-              "title": "Create User - Negative Test (Unauthorized User)",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "status": "passed",
-                      "duration": 565,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  id: 2615412,\n  name: 'Willie Pouros',\n  email: 'Tiana11@yahoo.com',\n  gender: 'female',\n  status: 'active'\n}\n"
-                        },
-                        {
-                          "text": "{ status: 401, json: { message: 'Authentication failed' } }\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:18.607Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ed4c5f2c991c0aad29d6-5aaf625b78da144d169f",
-              "file": "usersPost.spec.js",
-              "line": 38,
-              "column": 5
-            },
-            {
-              "title": "Create User - Negative Test (Invalid Data)",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 640,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  status: 422,\n  json: [ { field: 'email', message: \"can't be blank\" } ]\n}\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:18.640Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "ed4c5f2c991c0aad29d6-acd8b8caa3b1c19aa3e4",
-              "file": "usersPost.spec.js",
-              "line": 60,
-              "column": 5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "usersPut.spec.js",
-      "file": "usersPut.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "API Endpoint: Update User",
-          "file": "usersPut.spec.js",
-          "line": 14,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Update User - Positive Test",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 1363,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{\n  status: 200,\n  json: {\n    email: 'Chase.Emard@hotmail.com',\n    name: 'Updated User Name',\n    gender: 'female',\n    status: 'active',\n    id: 7536514\n  }\n}\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:18.790Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a6ce2d226547a0ec86b1-689013bf22477dbced22",
-              "file": "usersPut.spec.js",
-              "line": 15,
-              "column": 5
-            },
-            {
-              "title": "Update User - Negative Test (Invalid Data, non-existing ID)",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "status": "passed",
-                      "duration": 615,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{ status: 404, json: { message: 'Resource not found' } }\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:18.883Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a6ce2d226547a0ec86b1-15ad52e5cf3916bd3d25",
-              "file": "usersPut.spec.js",
-              "line": 44,
-              "column": 5
-            },
-            {
-              "title": "Update User - Negative Test (Unauthenticated)",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "status": "passed",
-                      "duration": 576,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "{ status: 401, json: { message: 'Authentication failed' } }\n"
-                        },
-                        {
-                          "text": "Schema validation completed successfully.\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2024-11-21T00:54:19.108Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "a6ce2d226547a0ec86b1-0dc83aeec69b16f02d48",
-              "file": "usersPut.spec.js",
-              "line": 72,
+              "id": "0fe92ab34c1b8601ccd5-5485b7e4dd768808bdeb",
+              "file": "usersDelete.spec.js",
+              "line": 64,
               "column": 5
             }
           ]
@@ -695,9 +228,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-11-21T00:54:16.606Z",
-    "duration": 3556.499,
-    "expected": 14,
+    "startTime": "2024-11-21T19:13:24.777Z",
+    "duration": 1774.354,
+    "expected": 3,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
